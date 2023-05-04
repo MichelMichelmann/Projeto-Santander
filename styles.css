@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.topo {
+    padding: 38px;
+
+}
+
+input{
+     font-size: 20px;
+     margin-left: 30px;
+     width: 300px;
+     padding: 5px;
+
+}
+
+
+.logo {
+    width: 131px;
+    height: 23px;
+
+
+}
+
+.link-voce {
+    color: red;
+    cursor: pointer;
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.link-voce:hover {
+    text-decoration: underline;
+}
+
+.link-empresa {
+    color: #000000;
+    cursor: pointer;
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.link-empresa:hover {
+    text-decoration: underline;
+}
+
+.principal {
+    width: 100%;
+
+
+}
+
+h2 {
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 32px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+li:hover{
+    transform: scale(1.1);
+    transition: 500ms linear;
+
+}
+
+li {
+    height: 190px;
+    width: 190px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: inline-block;
+    padding-top: 30px;
+}
+
+.logo-conta {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60px;
+    margin-top: 30px;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
